@@ -15,11 +15,11 @@ D:/Unity Projects/Tetris
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51607
+53809
 Successfully changed project path to: D:/Unity Projects/Tetris
 D:/Unity Projects/Tetris
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 177.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 129.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -40,44 +40,40 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.026613 seconds.
+Registered in 0.009919 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 233.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 180.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 13.274 seconds
+- Completed reload, in 25.302 seconds
 Domain Reload Profiling:
-	ReloadAssembly (13275ms)
-		BeginReloadAssembly (225ms)
+	ReloadAssembly (25302ms)
+		BeginReloadAssembly (220ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (4583ms)
-			LoadAssemblies (215ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2226ms)
+			LoadAssemblies (216ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1453ms)
+			SetupTypeCache (969ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (360ms)
-			SetupLoadedEditorAssemblies (1599ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (731ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (66ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (234ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (1059ms)
-				ProcessInitializeOnLoadMethodAttributes (148ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (181ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (211ms)
+				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012850 seconds.
+Registered in 0.007379 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 590.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.

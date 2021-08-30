@@ -94,7 +94,6 @@ public class Piece : MonoBehaviour
         this.board.Set(this);
         this.board.ClearLines();
         this.board.SpawnPiece();
-
     }
 
     private void Rotate(int direction)

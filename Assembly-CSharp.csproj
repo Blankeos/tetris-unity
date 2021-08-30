@@ -40,6 +40,7 @@
      <Compile Include="Assets\Scripts\Piece.cs" />
      <Compile Include="Assets\Scripts\Data.cs" />
      <Compile Include="Assets\Scripts\Tetromino.cs" />
+     <Compile Include="Assets\Scripts\Ghost.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
